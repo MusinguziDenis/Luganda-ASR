@@ -106,7 +106,7 @@ class DataTrainingArguments:
 
     dataset_name : str = field(
         default= None,
-        metadata={"help": "The name of the dataset to use (via the datasets library)."} 
+        metadanamta={"help": "The name of the dataset to use (via the datasets library)."} 
     )
 
     dataset_config_name : str = field(
