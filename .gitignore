@@ -1,4 +1,5 @@
 # Ignore all compressed files and the dataset files
 *.gz
 cv-corpus-16.1-2023-12-06
-.DS_Store.ipynb_checkpoints
+.DS_Store
+.ipynb_checkpoints
