@@ -1,16 +1,20 @@
-### Finetune WAV2VEC
+### Finetune ASR Models
 
-This repo contains code for finetuning wav2vec models on datasets in the Mozilla common voices dataset.
+This repo contains code for finetuning popular ASR models such as Wav2Vec-XLS-R, Wav2Vec2-Bert, Whisper and MMS on Mozilla Common Voice dataset.
 
-The finetuning script can be run on [Google Colab](wav2vec/notebook/Fine_Tune_W2V2_BERT_on_CV7_Luganda.ipynb).
+We use the [Mozilla Common Voice Dataset Luganda Dataset](https://huggingface.co/datasets/mozilla-foundation/common_voice_17_0) but this can be replaced by other datasets that contain Luganda data for example
+* [Fleurs Dataset](https://huggingface.co/datasets/google/fleurs)
 
-The code was inpired by [Fine-Tune Wav2Vec Bert for low resource ASR with transformers](https://huggingface.co/blog/fine-tune-w2v2-bert)
+
+The code was inpired by several HuggingFace tutorials
+* [Fine-Tune Wav2Vec Bert for low resource ASR with transformers](https://huggingface.co/blog/fine-tune-w2v2-bert)
+* [Fine-tuning XLS-R for Multi-Lingual ASR with 🤗 Transformers](https://huggingface.co/blog/fine-tune-xlsr-wav2vec2)
+* [Boosting Wav2Vec2 with n-grams in 🤗 Transformers](https://huggingface.co/blog/wav2vec2-with-ngram)
+* [Fine-Tune Whisper For Multilingual ASR with 🤗 Transformers](https://huggingface.co/blog/fine-tune-whisper)
 
 The model is Wav2Vec Bert model with a WER of 19.33.
 
 ### Model Available
-
-![Drag Racing](img/HF.svg)
 
 [HUGGINGFACE](https://huggingface.co/dmusingu/w2v-bert-2.0-luganda-CV-train-validation-7.0)
 
