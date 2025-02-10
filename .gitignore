@@ -6,3 +6,4 @@ cv-corpus-16.1-2023-12-06
 Data-Exploration.ipynb
 finetune_wav2vec.py
 wav2vec
+__pycache__

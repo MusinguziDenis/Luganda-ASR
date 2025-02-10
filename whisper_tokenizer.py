@@ -1,12 +1,10 @@
-import logging
-import torch
+# Adapted from: https://github.com/oza75/bambara-whisper-asr-finetuning/blob/main/model_setup.py
+# and https://github.com/huggingface/transformers/blob/v4.48.2/src/transformers/models/whisper/tokenization_whisper.py
 import transformers.models.whisper.tokenization_whisper as whisper_tokenization
 from tokenizers import AddedToken
-from transformers import WhisperTokenizer, WhisperProcessor, WhisperForConditionalGeneration
+from transformers import WhisperTokenizer
 from transformers.models.whisper.tokenization_whisper import TO_LANGUAGE_CODE, TASK_IDS
-from dataclasses import dataclass
-from typing import Any, Dict, List, Union, Tuple
-from transformers import WhisperFeatureExtractor
+from typing import List
 
 
 CUSTOM_TO_LANGUAGE_CODE = {**TO_LANGUAGE_CODE, "luganda": "lg"}
