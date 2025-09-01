@@ -1,12 +1,12 @@
-### Finetune ASR Models
+## LUGANDA-ASR
 
-This repo contains code for finetuning popular ASR models
+This repository demonstrates how to fine-tune popular Automatic Speech Recognition (ASR) models for Luganda using the Hugging Face Trainer API. The provided notebooks walk through data loading, preprocessing, and tokenizer creation, followed by model training. The ASR models explored include:
 * Wav2Vec-XLS-R
 * Wav2Vec2-Bert
 * Whisper 
 * MMS
 
-Luganda ASR Datasets
+Below is a list of open-source Luganda speech recognition datasets that can be used for training and evaluation:
 * [Mozilla Common Voice Dataset Luganda Dataset](https://huggingface.co/datasets/mozilla-foundation/common_voice_17_0)
 * [Fleurs Dataset](https://huggingface.co/datasets/google/fleurs)
 * [The Makerere Radio Speech Corpus: A Luganda Radio Corpus for Automatic Speech Recognition](https://doi.org/10.5281/zenodo.5855016)
@@ -27,4 +27,24 @@ You can access some of the finetuned models here
     This model obtained a WER of 27.94 on the test set of the CommonVoice 14 test dataset.
 * [dmusingu/w2v-bert-2.0-luganda-CV-train-validation-7.0](https://huggingface.co/dmusingu/w2v-bert-2.0-luganda-CV-train-validation-7.0)
     This model obtained a WER of 19.33 on the test set of the CommonVoice 7 test dataset.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/neubig/starter-repo/blob/main/LICENSE) file for details.
+
+## Citation
+This was created by Graham Neubig primarily as an example for student researchers.
+
+One final thing: when you publish your research code, it's good to add a BibTeX entry like this to the paper (or just the repo) so people can cite it easily:
+
+```@misc{musinguzi2025asr,
+  author = {Denis Musinguzi},
+  title = {Luganda ASR models},
+  year = {2025},
+  publisher = {GitHub},
+  journal = {GitHub Repository},
+  howpublished = {\url{https://github.com/MusinguziDenis/Luganda-ASR}}
+}
+```
+
+
 
