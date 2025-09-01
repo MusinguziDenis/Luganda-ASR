@@ -17,20 +17,19 @@ Below is a table with details of open-source Luganda speech recognition datasets
 
 
 
-The code was inpired by several HuggingFace tutorials
+The code was inpired by several HuggingFace tutorials:
 * [Fine-Tune W2V2-Bert for low-resource ASR with 🤗 Transformers](https://huggingface.co/blog/fine-tune-w2v2-bert)
 * [Fine-tuning XLS-R for Multi-Lingual ASR with 🤗 Transformers](https://huggingface.co/blog/fine-tune-xlsr-wav2vec2)
 * [Boosting Wav2Vec2 with n-grams in 🤗 Transformers](https://huggingface.co/blog/wav2vec2-with-ngram)
 * [Fine-Tune Whisper For Multilingual ASR with 🤗 Transformers](https://huggingface.co/blog/fine-tune-whisper)
 
 
-You can access some of the finetuned models here
-* [dmusingu/WHISPER-SMALL-LUGANDA-ASR-CV-14](https://huggingface.co/dmusingu/WHISPER-SMALL-LUGANDA-ASR-CV-14)
-    This model obtained a WER of 29.9 on the test set of the CommonVoice 14 test dataset.
-* [dmusingu/XLS-R-SWAHILI-ASR-CV-14-1B](https://huggingface.co/dmusingu/XLS-R-SWAHILI-ASR-CV-14-1B)
-    This model obtained a WER of 27.94 on the test set of the CommonVoice 14 test dataset.
-* [dmusingu/w2v-bert-2.0-luganda-CV-train-validation-7.0](https://huggingface.co/dmusingu/w2v-bert-2.0-luganda-CV-train-validation-7.0)
-    This model obtained a WER of 19.33 on the test set of the CommonVoice 7 test dataset.
+Table showing the performance of some of the finetuned ASR models.
+| Model | Dataset | WER |
+|-------|---------|-----|
+| [Whisper](https://huggingface.co/dmusingu/WHISPER-SMALL-LUGANDA-ASR-CV-14) | CommonVoice version 14 | 29.9 |
+| [XLS-R](https://huggingface.co/dmusingu/XLS-R-SWAHILI-ASR-CV-14-1B) | CommonVoice version 14 | 27.94 |
+| [W2V-Bert-2.0](https://huggingface.co/dmusingu/w2v-bert-2.0-luganda-CV-train-validation-7.0) | CommonVoice version 14 | 19.3 |
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/neubig/starter-repo/blob/main/LICENSE) file for details.
