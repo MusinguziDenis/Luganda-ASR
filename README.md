@@ -6,11 +6,15 @@ This repository demonstrates how to fine-tune popular Automatic Speech Recogniti
 * Whisper 
 * MMS
 
-Below is a list of open-source Luganda speech recognition datasets that can be used for training and evaluation:
-* [Mozilla Common Voice Dataset Luganda Dataset](https://huggingface.co/datasets/mozilla-foundation/common_voice_17_0)
-* [Fleurs Dataset](https://huggingface.co/datasets/google/fleurs)
-* [The Makerere Radio Speech Corpus: A Luganda Radio Corpus for Automatic Speech Recognition](https://doi.org/10.5281/zenodo.5855016)
-* [Yogera](https://github.com/AI-Lab-Makerere/Yogera-Dataset-Metadata)
+Below is a table with details of open-source Luganda speech recognition datasets that can be used for training and evaluation:
+
+| Dataset | Number of Hours | Type of Speech |
+|---------|-----------------| ---------------|
+|[Mozilla Common Voice Dataset Luganda Dataset](https://huggingface.co/datasets/mozilla-foundation/common_voice_17_0) | 560 | Read |
+| [Fleurs Dataset](https://huggingface.co/datasets/google/fleurs) | 11 | Spontaneous |
+| [The Makerere Radio Speech Corpus: A Luganda Radio Corpus for Automatic Speech Recognition](https://doi.org/10.5281/zenodo.5855016) | 155 | Spontaneous |
+| [Yogera](https://github.com/AI-Lab-Makerere/Yogera-Dataset-Metadata) | 251 | Read |
+
 
 
 The code was inpired by several HuggingFace tutorials
@@ -32,9 +36,7 @@ You can access some of the finetuned models here
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/neubig/starter-repo/blob/main/LICENSE) file for details.
 
 ## Citation
-This was created by Graham Neubig primarily as an example for student researchers.
-
-One final thing: when you publish your research code, it's good to add a BibTeX entry like this to the paper (or just the repo) so people can cite it easily:
+This was created by Denis Musinguzi to demonstrate how to finetune ASR models.
 
 ```@misc{musinguzi2025asr,
   author = {Denis Musinguzi},
